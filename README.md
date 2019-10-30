@@ -22,7 +22,7 @@ Initiation JavaScript
 # Exercice 7 :
  Clases (en cours)
 
-#Exercice 8 :
+# Exercice 8 :
  Dom (a terminer)
 
 # Exercice 9 :
