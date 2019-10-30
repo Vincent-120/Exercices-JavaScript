@@ -17,10 +17,10 @@ Initiation JavaScript
  Arrays
 
 # Exercice 6 :
- Object (a terminer)
+ Object
 
 # Exercice 7 :
- Clases (a terminer)
+ Clases (en cours)
 
 #Exercice 8 :
  Dom (a terminer)
