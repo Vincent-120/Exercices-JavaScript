@@ -20,7 +20,7 @@ Initiation JavaScript
  Object
 
 # Exercice 7 :
- Clases (en cours)
+ Clases
 
 # Exercice 8 :
  Dom (a terminer)
@@ -29,7 +29,7 @@ Initiation JavaScript
  Misc (a terminer)
 
 # Exercice 10 :
- Asynchronous (a terminer)
+ Asynchronous (besoin d'appronfondire)
 
 # Exercice 11 :
- Fetch (a terminer)
+ Fetch (besoin d'appronfondire)

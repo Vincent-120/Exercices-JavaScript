@@ -11,4 +11,17 @@
 
 (() => {
     // your code here
-})();
+    const person =class person {
+        constructor(firstname, lastname){
+            this.firstname=firstname
+            this.lastname=lastname
+        }
+    }
+    
+    const getter = new person('jean', 'durpulus')
+    console.log(getter)
+    document.getElementById('run').addEventListener('click',()=>{
+        const setter =new person (prompt('First name'),prompt('Last name'))
+        console.log(setter)
+    })
+})();r

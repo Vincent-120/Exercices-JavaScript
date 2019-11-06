@@ -10,5 +10,13 @@
 // You will have time to focus on it later.
 
 (() => {
+    document.getElementById("run").addEventListener("click", async () => {
+        const arrContent = await window.lib.getPosts();
+        arrContent.forEach( async objetContent => {
+            const arrComments           = await window.lib.getComments(objetContent.id)
+                  objetContent.Comments = arrComments;
+            console.log(objetContent.Comments);
+        })
+    })
     // your code here
 })();

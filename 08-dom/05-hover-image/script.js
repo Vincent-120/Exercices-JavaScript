@@ -10,5 +10,20 @@
 // You will have time to focus on it later.
 
 (() => {
+    let old = document.querySelector("img").src;
+    console.log(old);
+    let photo = document.querySelector("img");
+    (() => {
+        document.querySelector("IMG").addEventListener("mouseover", () => {
+            // your code here
+            let prop = document.querySelector("img");
+            let hov = document.querySelector("img").getAttribute("data-hover");
+            photo.setAttribute("src",hov );
+        });
+        document.querySelector("IMG").addEventListener("mouseout", () => {
+            // your code here
+            photo.setAttribute("src", old);
+        });
+    })();
     // your code here
 })();

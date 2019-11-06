@@ -10,5 +10,8 @@
 // You will have time to focus on it later.
 
 (() => {
+    var pic = document.images ()
+    document.getElementById('target').innerHTML = pic
     // your code here
 })();
+data

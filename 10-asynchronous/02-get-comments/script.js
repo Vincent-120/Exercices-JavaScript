@@ -10,5 +10,15 @@
 // You will have time to focus on it later.
 
 (() => {
+    document.getElementById("run").addEventListener("click", () => {
+        window.lib.getPosts((error,content) => {
+            content.forEach(objetContent => {
+                window.lib.getComments(objetContent.id,(error, arrComments)=>{
+                    objetContent.comments = arrComments;
+                    console.log(objetContent)
+                })
+            });
+        })
+    })
     // your code here
 })();
